@@ -1,9 +1,9 @@
 :root {
-    --ink: #14060c;
-    --wine: #3b0718;
-    --rose: #ff2d78;
-    --gold: #f4d07a;
-    --paper: #fff4e8;
+    --ink: #101820;
+    --wine: #1c2836;
+    --rose: #c4494a;
+    --gold: #e6c98a;
+    --paper: #f7f1e6;
 }
 
 * {
@@ -21,8 +21,8 @@ body {
     font-family: "Space Grotesk", sans-serif;
     background-color: var(--ink);
     background-image:
-        linear-gradient(180deg, rgba(20, 6, 12, 0.82), rgba(59, 7, 24, 0.88)),
-        url("images/vogue-berlin-3.jpg");
+        linear-gradient(180deg, rgba(16, 24, 32, 0.72), rgba(28, 40, 54, 0.84)),
+        url("images/paris-republique.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -185,5 +185,9 @@ footer {
 
     .statement {
         max-width: none;
+    }
+
+    .kicker {
+        letter-spacing: 0.16em;
     }
 }
